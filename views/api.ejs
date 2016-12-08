@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+<head>
+    <title>Node Authentication</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <style>
+        body { padding-top:20px; word-wrap:break-word; }
+    </style>
+</head>
+<body>
+<div class="container">
+
+    <div class="page-header text-center">
+        <h3><span class="fa fa-anchor"></span> API Page</h3>
+        <a href="/logout" class="btn btn-default btn-sm">Logout</a>
+    </div>
+
+    <div class="row">
+
+        <!-- LOCAL INFORMATION -->
+        <div class="col-sm-6">
+            <div class="well">
+                <h3><span class="fa fa-user"></span> User information</h3>
+
+                    <p>
+                        <strong>id</strong>: <%= user._id %><br>
+                        <strong>username</strong>: <%= user.username %><br>
+                        <strong>password</strong>: <%= user.password %>
+                    </p>
+
+            </div>
+        </div>
+        <div class="col-sm-6">
+            <div class="well">
+            <br>
+            <h3><span class="fa fa-user"></span> List of URLS</h3>
+            <a href="http://localhost:8080/api/users">/api/users</a><br>
+            <a href="http://localhost:8080/api/books">/api/books</a><br>
+            You can append an id to the url, for example .../api/users/1 or .../api/books/1<br>
+            You can get a list of user's books, for example .../api/users/1/books<br><br>
+            <strong>You can use HTTP POST, PUT, DELETE requests on every URL above</strong><br>
+            </div>
+        </div>
+    </div>
+    
+</div>
+</body>
+</html>

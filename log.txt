@@ -1,0 +1,46 @@
+/loginchrome
+/loginchrome
+/loginchrome
+/loginchrome
+/loginchrome
+/api chrome
+/api/users chrome
+/api/books chrome
+/api/books/2 chrome
+/api/users/0 chrome
+/api/users/0books chrome
+/login chrome
+/api chrome
+/api/users chrome
+/api/books chrome
+/signup chrome
+/api chrome
+/api/users chrome
+/api/users/3 chrome
+/api/users/3 chrome
+/api/users/3/books chrome
+/api/users/3/books chrome
+/api/users/3/books chrome
+/login chrome
+/api chrome
+/api/books chrome
+/api/users/3 chrome
+/api/users/3/books chrome
+/api/users/3 chrome
+/signup chrome
+/api chrome
+/api/users chrome
+/api/users/1 chrome
+/api/users/0 chrome
+/api/users/0/books chrome
+/login chrome
+/api chrome
+/api/users/0/books chrome
+/login chrome
+/api chrome
+/api/books chrome
+/api/books chrome
+/api/books chrome
+/api/users/2 chrome
+/login firefox
+/api firefox
